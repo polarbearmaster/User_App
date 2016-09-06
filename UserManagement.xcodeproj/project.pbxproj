@@ -10,9 +10,6 @@
 		B95D75701D7E5AB50056B482 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B95D756F1D7E5AB50056B482 /* MBProgressHUD.m */; };
 		B95D75731D7E600E0056B482 /* YNMessageBox.m in Sources */ = {isa = PBXBuildFile; fileRef = B95D75721D7E600E0056B482 /* YNMessageBox.m */; };
 		B95D75761D7E697F0056B482 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95D75751D7E697F0056B482 /* HomeViewController.m */; };
-		B95D757B1D7E8FEE0056B482 /* Back-25.png in Resources */ = {isa = PBXBuildFile; fileRef = B95D75781D7E8FEE0056B482 /* Back-25.png */; };
-		B95D757C1D7E8FEE0056B482 /* Back-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B95D75791D7E8FEE0056B482 /* Back-50.png */; };
-		B95D757D1D7E8FEE0056B482 /* Back-75.png in Resources */ = {isa = PBXBuildFile; fileRef = B95D757A1D7E8FEE0056B482 /* Back-75.png */; };
 		B966644F1D77BE2E0081E764 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B966644E1D77BE2E0081E764 /* main.m */; };
 		B96664521D77BE2E0081E764 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B96664511D77BE2E0081E764 /* AppDelegate.m */; };
 		B96664551D77BE2E0081E764 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96664541D77BE2E0081E764 /* LoginViewController.m */; };
@@ -30,9 +27,6 @@
 		B95D75721D7E600E0056B482 /* YNMessageBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNMessageBox.m; sourceTree = "<group>"; };
 		B95D75741D7E697F0056B482 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		B95D75751D7E697F0056B482 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		B95D75781D7E8FEE0056B482 /* Back-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back-25.png"; sourceTree = "<group>"; };
-		B95D75791D7E8FEE0056B482 /* Back-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back-50.png"; sourceTree = "<group>"; };
-		B95D757A1D7E8FEE0056B482 /* Back-75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back-75.png"; sourceTree = "<group>"; };
 		B966644A1D77BE2E0081E764 /* UserManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B966644E1D77BE2E0081E764 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B96664501D77BE2E0081E764 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,16 +65,6 @@
 			path = Libs;
 			sourceTree = "<group>";
 		};
-		B95D75771D7E8FE40056B482 /* resources */ = {
-			isa = PBXGroup;
-			children = (
-				B95D75781D7E8FEE0056B482 /* Back-25.png */,
-				B95D75791D7E8FEE0056B482 /* Back-50.png */,
-				B95D757A1D7E8FEE0056B482 /* Back-75.png */,
-			);
-			path = resources;
-			sourceTree = "<group>";
-		};
 		B96664411D77BE2E0081E764 = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +84,6 @@
 		B966644C1D77BE2E0081E764 /* UserManagement */ = {
 			isa = PBXGroup;
 			children = (
-				B95D75771D7E8FE40056B482 /* resources */,
 				B95D756D1D7E5A940056B482 /* Libs */,
 				B96664501D77BE2E0081E764 /* AppDelegate.h */,
 				B96664511D77BE2E0081E764 /* AppDelegate.m */,
@@ -186,12 +169,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B95D757C1D7E8FEE0056B482 /* Back-50.png in Resources */,
 				B966645D1D77BE2E0081E764 /* LaunchScreen.storyboard in Resources */,
-				B95D757D1D7E8FEE0056B482 /* Back-75.png in Resources */,
 				B966645A1D77BE2E0081E764 /* Assets.xcassets in Resources */,
 				B96664581D77BE2E0081E764 /* Main.storyboard in Resources */,
-				B95D757B1D7E8FEE0056B482 /* Back-25.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
